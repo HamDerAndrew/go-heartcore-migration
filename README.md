@@ -34,7 +34,7 @@ Run this command: `go run main.go`
 
 - The structure ↓
    - ![image](https://github.com/user-attachments/assets/b4d17bd8-ba88-40ea-8732-592355448cb4)
-4. Create a content node populated automatically using the [Heartcore Client Library](https://github.com/umbraco/Umbraco.Headless.Client.Net). If you are not using C#, use the [Heartcore API Docs](https://docs.umbraco.com/umbraco-heartcore/api-documentation/api-documentation) and the [api.tvmaze.com](https://www.tvmaze.com/api) with your prefered language.
+4. Use the [Heartcore API Docs](https://docs.umbraco.com/umbraco-heartcore/api-documentation/api-documentation) and the [api.tvmaze.com](https://www.tvmaze.com/api) to create a content node that is populated with the TV Shows automatically.
 5.  If a show exists with an ID do the following ↓
 - Update Existing Property:
    - If the property already exists in Heartcore but is empty, check if TVMAZE has a value for it. If it does, update the property in Heartcore with the value from TVMAZE.
